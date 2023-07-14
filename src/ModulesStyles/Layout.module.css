@@ -1,0 +1,30 @@
+
+.mainLayoutWrapper{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 60px 1fr 30px;
+}
+
+/* Header */
+.headerContainer{
+    margin: 0;
+    padding: 10px;
+}
+
+.header_Title{
+    margin: 0;
+    font-weight: 400;
+}
+
+
+ 
+/* Footer */
+.footerContainer{
+  margin: 0;
+  padding: 0;
+}
+
+.footer_Content{
+    font-weight: 400;
+    color: #413b3b;
+}

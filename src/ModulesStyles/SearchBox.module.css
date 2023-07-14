@@ -1,0 +1,18 @@
+.fieldContainer{
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.icon{
+   margin-right: 10px;
+}
+
+.field{
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    font-weight: 400;
+}

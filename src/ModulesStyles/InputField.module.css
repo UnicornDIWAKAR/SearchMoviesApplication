@@ -1,0 +1,37 @@
+.inputFieldContainer{
+    margin: 0;
+}
+
+.inputFieldBox{
+    border-radius: 30px;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+
+.inputFieldLabel{
+    font-size: 20px;
+    font-weight: 300;
+    width: 25%;
+}
+
+.inputField{
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.inputFieldError{
+    color: rgb(212, 72, 72);
+    font-size: 13px;
+    margin: 0px 10px;
+}
+
+.errorBorder{
+    border: 1px solid rgb(212, 72, 72);
+}

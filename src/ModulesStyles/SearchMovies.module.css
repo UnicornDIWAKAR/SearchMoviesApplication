@@ -1,0 +1,12 @@
+.searchMoviesContainer{
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.searchMovies{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius:3px;
+    border: 1px dashed black;
+    gap:10px;
+}

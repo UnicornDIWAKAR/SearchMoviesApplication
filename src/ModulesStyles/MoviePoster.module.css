@@ -1,0 +1,40 @@
+.moviePosterContainer{
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 100%;
+       height: 100%;
+        
+}
+
+.moviePosterOverlay{
+    background-color: rgba(0, 0, 0, 0.50);
+    backdrop-filter: blur(20px);
+    height: 100%;
+    
+    overflow: hidden;
+}
+
+.moviePosterTitle{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+/* .moviePosterImg{
+    height: 100%;
+    width:  50%;
+} */
+
+.moviePosterContentContainer{
+    width: 50%;
+}
+
+.moviePosterContent{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.moviePosterContentPlot{
+    font-size: 23px;
+    font-weight: 200;
+}

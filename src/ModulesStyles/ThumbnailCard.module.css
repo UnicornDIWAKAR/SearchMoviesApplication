@@ -1,0 +1,72 @@
+/* Empty Thumbnail */
+
+.emptyThumbnailContainer{
+    margin: 0;
+}
+
+.emptyThumbnail_content{
+    font-weight: 400;
+}
+
+/* Thumbnail */
+
+.thumbnailContainer{
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 4px;
+     overflow: hidden;
+     width: 350px;
+     height: 450px;
+     border-radius: 2px;
+     cursor: pointer;
+}
+
+.thumbnailBody{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to top, black 70px, rgba(0,0,0,0.1));
+}
+
+.thumbnailTitle{
+    font-weight: 450;
+    font-size: 30px;
+    white-space:pre-wrap; 
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    width: 274px; 
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.thumbnailTitle::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    display: block;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}
+
+.thumbnailSubTitle {
+    font-size: 100;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.thumbnailContent{
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.thumbnailIcon{
+        width: fit-content;
+        margin-top:-4px ;
+}
